@@ -6,8 +6,6 @@ public class Connection {
     private BigInteger consumerNumber;
     private int billingUnit;
     private String type;
-    private String name;
-    private String home;
 
     public BigInteger getConsumerNumber() { return consumerNumber; }
     public void setConsumerNumber(BigInteger consumerNumber) { this.consumerNumber = consumerNumber; }
